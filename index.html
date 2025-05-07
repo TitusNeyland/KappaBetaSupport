@@ -2,50 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kappa Beta Connect Support</title>
+    <title>Kappa Beta Connect – FAQ & Support</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
-        .container { max-width: 600px; margin: 40px auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 32px 24px; }
-        h1 { color: #1a237e; }
-        .section { margin-bottom: 32px; }
-        label { display: block; margin-top: 16px; font-weight: 500; }
-        input, textarea { width: 100%; padding: 10px; margin-top: 6px; border: 1px solid #ccc; border-radius: 5px; font-size: 1em; }
-        button { margin-top: 18px; background: #1a237e; color: #fff; border: none; padding: 12px 24px; border-radius: 5px; font-size: 1em; cursor: pointer; }
-        button:hover { background: #3949ab; }
-        .links a { color: #1a237e; text-decoration: underline; margin-right: 16px; }
-        .contact-info { margin-top: 12px; }
+        body { background: #f5f7fa; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; }
+        .container { max-width: 700px; margin: 40px auto; background: #fff; border-radius: 14px; box-shadow: 0 4px 24px #0002; padding: 40px 32px; }
+        h1 { color: #1a237e; margin-bottom: 8px; }
+        .subtitle { color: #333; margin-bottom: 24px; font-size: 1.15em; }
+        .support { margin: 32px 0 40px 0; }
+        .support-btn {
+            display: inline-block;
+            background: #1a237e;
+            color: #fff;
+            font-weight: 600;
+            padding: 14px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            transition: background 0.2s;
+        }
+        .support-btn:hover { background: #3949ab; }
+        .faq-section { margin-bottom: 36px; }
+        .faq-title { color: #1a237e; font-size: 1.2em; margin-top: 24px; margin-bottom: 10px; }
+        .faq-q { font-weight: 600; margin-top: 18px; }
+        .faq-a { margin: 6px 0 0 0; color: #333; }
+        .links { margin-top: 32px; }
+        .links a {
+            color: #1a237e;
+            text-decoration: underline;
+            margin-right: 24px;
+            font-weight: 500;
+        }
+        footer { margin-top: 40px; color: #888; font-size: 0.98em; text-align: center; }
+        @media (max-width: 600px) {
+            .container { padding: 18px 6vw; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Kappa Beta Connect Support</h1>
-        <div class="section">
-            <p>
-                Welcome to the Kappa Beta Connect support page. If you have questions, need help, or want to report an issue, please use the form below or contact us directly.
-            </p>
-            <div class="contact-info">
-                <strong>Email:</strong> <a href="mailto:support@kappabetaconnect.com">support@kappabetaconnect.com</a><br>
-                <strong>FAQ:</strong> <a href="https://github.com/yourusername/yourrepo/wiki/FAQ" target="_blank">Frequently Asked Questions</a>
-            </div>
+        <h1>Kappa Beta Connect – FAQ & Support</h1>
+        <div class="subtitle">
+            Welcome! If you have questions, need help, or want to report an issue, please review our FAQ below or contact us directly.
         </div>
-        <div class="section">
-            <form>
-                <label for="name">Your Name</label>
-                <input id="name" name="name" type="text" placeholder="Enter your name" required>
-                <label for="email">Your Email</label>
-                <input id="email" name="email" type="email" placeholder="Enter your email" required>
-                <label for="message">How can we help you?</label>
-                <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
-                <button type="submit" disabled>Send Message</button>
-                <p style="font-size:0.95em;color:#888;margin-top:8px;">(Form is for display only. Please email us directly.)</p>
-            </form>
+        <div class="support">
+            <a class="support-btn" href="mailto:support@kappabetaconnect.com">Email Us: support@kappabetaconnect.com</a>
+            <div style="color:#555; margin-top:8px;">We respond to all inquiries within 1-2 business days.</div>
         </div>
-        <div class="section links">
-            <a href="https://github.com/yourusername/yourrepo/wiki/FAQ" target="_blank">FAQ</a>
-            <a href="https://github.com/yourusername/yourrepo/wiki/Privacy-Policy" target="_blank">Privacy Policy</a>
+
+        <div class="faq-section">
+            <div class="faq-title">GENERAL</div>
+            <div class="faq-q">What is Kappa Beta Connect?</div>
+            <div class="faq-a">Kappa Beta Connect is a private social networking app exclusively for Kappa Beta fraternity members, designed to foster connection, communication, and collaboration.</div>
+            <div class="faq-q">Who can join?</div>
+            <div class="faq-a">Only verified members of the Kappa Beta fraternity are eligible to join and use the app.</div>
         </div>
-        <footer style="margin-top:32px;font-size:0.95em;color:#888;">
+
+        <div class="faq-section">
+            <div class="faq-title">ACCOUNT & PROFILE</div>
+            <div class="faq-q">How do I update my profile?</div>
+            <div class="faq-a">Go to your profile page in the app and tap “Edit Profile” to update your information, photo, and social links.</div>
+            <div class="faq-q">How do I reset my password?</div>
+            <div class="faq-a">On the login screen, tap “Forgot Password?” and follow the instructions to reset your password via email.</div>
+            <div class="faq-q">How do I delete my account?</div>
+            <div class="faq-a">Please email us at <a href="mailto:support@kappabetaconnect.com">support@kappabetaconnect.com</a> with your request. We will process your deletion promptly.</div>
+        </div>
+
+        <div class="faq-section">
+            <div class="faq-title">POSTS & CONTENT</div>
+            <div class="faq-q">How do I create a post?</div>
+            <div class="faq-a">Tap the “+” button on the home feed to create and share a new post with the community.</div>
+            <div class="faq-q">How do I report inappropriate content?</div>
+            <div class="faq-a">Tap the “...” menu on any post or comment and select “Report.” Our team will review and take action within 24 hours.</div>
+            <div class="faq-q">How do I block another user?</div>
+            <div class="faq-a">Tap the “...” menu on a user’s post or profile and select “Block User.” You will no longer see their content.</div>
+        </div>
+
+        <div class="faq-section">
+            <div class="faq-title">EVENTS</div>
+            <div class="faq-q">How do I find upcoming events?</div>
+            <div class="faq-a">Events are displayed on the Home screen and in the Events tab. You can view all upcoming events and filter them by date or type.</div>
+            <div class="faq-q">How do I RSVP to an event?</div>
+            <div class="faq-a">Open an event and tap the “RSVP” button.</div>
+            <div class="faq-q">How do I add an event to my calendar?</div>
+            <div class="faq-a">When viewing an event, tap the calendar icon to add it to your device’s calendar. You can choose which calendar to add it to.</div>
+        </div>
+
+        <div class="faq-section">
+            <div class="faq-title">DIRECTORY</div>
+            <div class="faq-q">How do I search the member directory?</div>
+            <div class="faq-a">In the Directory tab, use the search bar to find members by name. You can also use filters to search by location, industry, or graduation year.</div>
+            <div class="faq-q">How do I filter the directory?</div>
+            <div class="faq-a">Tap the filter icon in the Directory tab to access filtering options. You can filter by location, industry, line number, initiation year, and more.</div>
+        </div>
+
+        <div class="faq-section">
+            <div class="faq-title">DONATIONS</div>
+            <div class="faq-q">How do I make a donation?</div>
+            <div class="faq-a">Tap the QR code icon in the top right of the Home screen to access our Cash App donation link ($kappabeta).</div>
+            <div class="faq-q">Are donations tax-deductible?</div>
+            <div class="faq-a">Please consult with your tax advisor regarding the deductibility of your donations.</div>
+        </div>
+
+        <div class="links">
+            <a href="https://titusneyland.github.io/KBConnectPrivacyPolicy/" target="_blank">Privacy Policy</a>
+        </div>
+        <footer>
             &copy; 2024 Kappa Beta Connect. All rights reserved.
         </footer>
     </div>
